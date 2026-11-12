@@ -11,8 +11,8 @@ binding = "ASSETS"
 # 【唯一必须手填的地方】把 database_id 换成你在 Cloudflare 后台新建的 D1 数据库 ID
 [[d1_databases]]
 binding = "DB"
-database_name = "cf_kefu"
-database_id = "REPLACE_WITH_YOUR_D1_DATABASE_ID"
+database_name = "cf_kefu3"
+database_id = "653fa1db-9a88-4bc5-bf07-1622d00f39bf"
 migrations_dir = "migrations"
 
 # 可选：如果以后想用 R2 存图片，取消下面三行注释即可（代码会自动优先用 R2）
